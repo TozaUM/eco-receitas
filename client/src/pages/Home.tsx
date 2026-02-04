@@ -198,6 +198,28 @@ const recipes: Recipe[] = [
     difficulty: 'médio',
     prepTime: '45 min',
     servings: '5 potes'
+  },
+  {
+    id: 17,
+    title: 'Suco de Talo de Abacaxi',
+    description: 'Uma bebida refrescante e desintoxicante feita com talos de abacaxi, rico em enzimas digestivas.',
+    ingredients: ['Talos de abacaxi picados', 'Água', 'Gengibre', 'Limão', 'Mel'],
+    instructions: ['Pique os talos de abacaxi', 'Ferva em água com gengibre por 15 minutos', 'Coe bem', 'Adicione suco de limão e mel', 'Sirva gelado'],
+    category: 'talos',
+    difficulty: 'fácil',
+    prepTime: '20 min',
+    servings: '3 porções'
+  },
+  {
+    id: 18,
+    title: 'Biscoito de Sementes de Tomate',
+    description: 'Um biscoito salgado e crocante feito com sementes de tomate, perfeito para acompanhar sopas.',
+    ingredients: ['Sementes de tomate secas', 'Farinha de trigo', 'Azeite', 'Sal', 'Orégano'],
+    instructions: ['Seque bem as sementes de tomate', 'Misture com farinha, azeite, sal e orégano', 'Forme biscoitos pequenos', 'Asse a 180°C por 15 minutos', 'Deixe esfriar e armazene em pote fechado'],
+    category: 'sementes',
+    difficulty: 'médio',
+    prepTime: '40 min',
+    servings: '24 biscoitos'
   }
 ];
 
