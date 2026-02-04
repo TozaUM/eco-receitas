@@ -377,13 +377,13 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gradient-accent text-white">
+      <section className="py-16 md:py-24 bg-gradient-accent">
         <div className="container text-center space-y-6">
-          <h2 className="text-4xl md:text-5xl font-bold">Comece Agora!</h2>
-          <p className="text-lg max-w-2xl mx-auto opacity-90">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary">Comece Agora!</h2>
+          <p className="text-lg max-w-2xl mx-auto text-primary">
             Escolha uma receita, reúna seus ingredientes e transforme o que seria desperdício em algo delicioso. Cada prato é um passo em direção a um planeta mais sustentável.
           </p>
-          <a href="#receitas" className="inline-block bg-white text-primary px-8 py-3 rounded-lg font-bold hover:shadow-lg transition-shadow">
+          <a href="#receitas" className="inline-block bg-white text-primary px-8 py-3 rounded-lg font-bold hover:shadow-lg transition-shadow hover:bg-primary hover:text-white">
             Explorar Receitas
           </a>
         </div>
