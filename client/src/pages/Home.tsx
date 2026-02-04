@@ -88,6 +88,116 @@ const recipes: Recipe[] = [
     difficulty: 'fácil',
     prepTime: '15 min',
     servings: '2 porções'
+  },
+  {
+    id: 7,
+    title: 'Geleia de Casca de Laranja',
+    description: 'Uma geleia caseira deliciosa feita com cascas de laranja, perfeita para acompanhar pães e bolos.',
+    ingredients: ['Cascas de laranja', 'Açúcar', 'Água', 'Suco de limão'],
+    instructions: ['Corte as cascas em tiras finas', 'Cozinhe com água por 10 minutos', 'Adicione açúcar e suco de limão', 'Cozinhe até engrossar', 'Coloque em potes esterilizados'],
+    category: 'cascas',
+    difficulty: 'médio',
+    prepTime: '45 min',
+    servings: '6 potes'
+  },
+  {
+    id: 8,
+    title: 'Caldo de Talo de Cenoura',
+    description: 'Um caldo nutritivo que aproveita os talos de cenoura, rico em vitaminas e minerais.',
+    ingredients: ['Talos de cenoura', 'Cebola', 'Alho', 'Gengibre', '1 litro de água', 'Sal e pimenta'],
+    instructions: ['Refogue cebola, alho e gengibre', 'Adicione talos de cenoura picados', 'Cubra com água e cozinhe 25 minutos', 'Coe e tempere', 'Sirva quente'],
+    category: 'talos',
+    difficulty: 'fácil',
+    prepTime: '30 min',
+    servings: '4 porções'
+  },
+  {
+    id: 9,
+    title: 'Pesto de Folhas de Beterraba',
+    description: 'Um pesto vibrante e nutritivo feito com folhas de beterraba, perfeito para massas e saladas.',
+    ingredients: ['Folhas de beterraba', 'Alho', 'Nozes', 'Queijo parmesão', 'Azeite', 'Sal'],
+    instructions: ['Bata folhas de beterraba com alho', 'Adicione nozes e queijo', 'Despeje azeite gradualmente', 'Tempere com sal', 'Use em massas ou saladas'],
+    category: 'folhas',
+    difficulty: 'fácil',
+    prepTime: '10 min',
+    servings: '4 porções'
+  },
+  {
+    id: 10,
+    title: 'Farinha de Sementes de Abóbora',
+    description: 'Uma farinha nutritiva e versátil feita com sementes de abóbora, ótima para bolos e pães.',
+    ingredients: ['Sementes de abóbora', 'Sal'],
+    instructions: ['Lave e seque bem as sementes', 'Asse a 150°C por 20 minutos', 'Deixe esfriar completamente', 'Triture em processador', 'Armazene em pote fechado'],
+    category: 'sementes',
+    difficulty: 'fácil',
+    prepTime: '30 min',
+    servings: '2 xícaras'
+  },
+  {
+    id: 11,
+    title: 'Chips de Casca de Pera',
+    description: 'Snack crocante e adocicado feito com cascas de pera, uma alternativa saudável a doces.',
+    ingredients: ['Cascas de pera', 'Azeite', 'Canela', 'Açúcar mascavo', 'Sal'],
+    instructions: ['Limpe e seque as cascas', 'Tempere com azeite, canela e açúcar', 'Asse a 180°C por 20 minutos', 'Deixe esfriar até ficar crocante'],
+    category: 'cascas',
+    difficulty: 'fácil',
+    prepTime: '30 min',
+    servings: '3 porções'
+  },
+  {
+    id: 12,
+    title: 'Caldo de Talo de Espinafre',
+    description: 'Um caldo reconfortante que aproveita os talos de espinafre, rico em ferro e nutrientes.',
+    ingredients: ['Talos de espinafre', 'Batata', 'Cebola', 'Alho', '1 litro de caldo vegetal', 'Noz-moscada'],
+    instructions: ['Refogue cebola e alho', 'Adicione talos e batata picados', 'Cubra com caldo e cozinhe 20 minutos', 'Bata até ficar cremoso', 'Tempere com noz-moscada'],
+    category: 'talos',
+    difficulty: 'médio',
+    prepTime: '35 min',
+    servings: '4 porções'
+  },
+  {
+    id: 13,
+    title: 'Chá de Folhas de Morango',
+    description: 'Uma bebida aromática e antioxidante feita com folhas de morango, frequentemente descartadas.',
+    ingredients: ['Folhas de morango', 'Água', 'Mel', 'Limão'],
+    instructions: ['Lave bem as folhas', 'Ferva água e adicione as folhas', 'Deixe em infusão por 5 minutos', 'Coe e adicione mel e limão', 'Sirva quente ou gelado'],
+    category: 'folhas',
+    difficulty: 'fácil',
+    prepTime: '10 min',
+    servings: '2 porções'
+  },
+  {
+    id: 14,
+    title: 'Granola com Sementes de Melão',
+    description: 'Uma granola crocante e nutritiva que incorpora sementes de melão secas e torradas.',
+    ingredients: ['Aveia', 'Sementes de melão', 'Mel', 'Azeite', 'Canela', 'Sal'],
+    instructions: ['Misture aveia, sementes e especiarias', 'Adicione mel e azeite', 'Espalhe em assadeira', 'Asse a 160°C por 25 minutos', 'Deixe esfriar e armazene'],
+    category: 'sementes',
+    difficulty: 'fácil',
+    prepTime: '35 min',
+    servings: '8 porções'
+  },
+  {
+    id: 15,
+    title: 'Sopa Cremosa de Talo de Brócolis',
+    description: 'Uma sopa cremosa e elegante que transforma talos de brócolis em um prato sofisticado.',
+    ingredients: ['Talos de brócolis', 'Batata', 'Cebola', 'Alho', 'Caldo vegetal', 'Leite de coco'],
+    instructions: ['Refogue cebola e alho', 'Adicione talos e batata picados', 'Cubra com caldo e cozinhe 20 minutos', 'Bata com leite de coco', 'Tempere e sirva com croutons'],
+    category: 'talos',
+    difficulty: 'médio',
+    prepTime: '40 min',
+    servings: '4 porções'
+  },
+  {
+    id: 16,
+    title: 'Compota de Casca de Maçã',
+    description: 'Uma compota doce e natural feita com cascas de maçã, perfeita para acompanhar iogurte.',
+    ingredients: ['Cascas de maçã', 'Açúcar', 'Água', 'Canela', 'Cravo'],
+    instructions: ['Corte as cascas em pequenos pedaços', 'Cozinhe com água e açúcar', 'Adicione canela e cravo', 'Cozinhe até engrossar', 'Coloque em potes esterilizados'],
+    category: 'cascas',
+    difficulty: 'médio',
+    prepTime: '45 min',
+    servings: '5 potes'
   }
 ];
 
@@ -150,84 +260,89 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative">
+            <div className="animate-fade-in-up">
               <img 
-                src="https://private-us-east-1.manuscdn.com/sessionFile/mZ4e5wbGQhqiaM0H0iswiG/sandbox/65pGOc1OZXXmvGDExAF5XK-img-1_1770231579000_na1fn_aGVyby1yZWFwcm92ZWl0YW1lbnRv.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbVo0ZTV3YkdRaHFpYU0wSDBpc3dpRy9zYW5kYm94LzY1cEdPYzFPWlhYbXZHREV4QUY1WEstaW1nLTFfMTc3MDIzMTU3OTAwMF9uYTFmbl9hR1Z5YnkxeVpXRndjbTkyWldsMFlXMWxiblJ2LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=myURELnwqFrLe14TKzuYTn1KGgmHmr-bA9WdeLQXc8nt6x88U~NTCCXiUbTQ5JZj~0ifeelhx-lmA0HuwtYq5zlSn0hGptTHGB091fGkK5rPBbPhB10rTtYVnHNko5~fXxpEwiGubwxlreM643kGLUGYVeQBgGyevdkfKy24AVHmkv3-U0Ad3pxKmlRrhU2DOY62Pe5tRtyznrg985QxF0BcnG~HfFgtcAl4Eb0om8JI3JvH62HvEoxpUu615Z~HZMp6lh5NE0rWPK8FHHxHsHnfIswBvH8QlG16qh0PBai3R1kHCkVe81fV0M0~sWhkMYIGI2fKF2qaK01gSgVsjw__"
+                src="https://cdn.jsdelivr.net/gh/manus-ai/webdev-assets@main/eco-receitas/hero-reaproveitamento.png"
                 alt="Reaproveitamento de alimentos"
-                className="w-full h-auto rounded-2xl shadow-lg"
+                className="w-full rounded-2xl shadow-lg"
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cascas e Talos Section */}
-      <section className="py-16 md:py-24 bg-white/50">
+      {/* Cascas de Frutas Section */}
+      <section className="py-16 md:py-24 bg-yellow-50">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="order-2 md:order-1">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="animate-slide-in-left">
               <img 
-                src="https://private-us-east-1.manuscdn.com/sessionFile/mZ4e5wbGQhqiaM0H0iswiG/sandbox/65pGOc1OZXXmvGDExAF5XK-img-2_1770231569000_na1fn_Y2FzY2FzLWZydXRhcw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbVo0ZTV3YkdRaHFpYU0wSDBpc3dpRy9zYW5kYm94LzY1cEdPYzFPWlhYbXZHREV4QUY1WEstaW1nLTJfMTc3MDIzMTU2OTAwMF9uYTFmbl9ZMkZ6WTJGekxXWnlkWFJoY3cucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ZlpGtpskaVWjSY4lFkUUA9ZDYoCZ15KTLvy-8VFTtr03ZNy6IL1hno7249Yl2pzRWhkKZE2me0ZaS4uOISVvXEQ4t~ETbrLhT3o8ipSGeU5D8dsOi5~A8ekNhLOp8UBnqq9mwWLTSmqfcQUUcVCC4AlVvjwSKQsdXv1S9aerkjO0HYAescLS1kgYAFmD~29AGDPhuqWLTR1pqLh8vB5st1h5yQdUYQnljeQrpznasNtQa504IugTcies9cbK6aTUVMS0NCqpEIZOxqK2WI0hiX28U2te1FJDD4EVVA~ZBety9iVOpP8QZhbvpE1lbSXUcvp2SY6hCLG6alds6asGpw__"
+                src="https://cdn.jsdelivr.net/gh/manus-ai/webdev-assets@main/eco-receitas/cascas-frutas.png"
                 alt="Cascas de frutas"
-                className="w-full h-auto rounded-2xl shadow-lg"
+                className="w-full rounded-2xl shadow-lg"
               />
             </div>
-            <div className="order-1 md:order-2 space-y-6">
+            <div className="space-y-6 animate-slide-in-right">
               <h2 className="text-3xl md:text-4xl font-bold text-primary">Cascas de Frutas</h2>
-              <p className="text-lg text-foreground/80">
+              <p className="text-foreground/80">
                 Bananas, maçãs, peras e laranjas têm cascas ricas em nutrientes e fibras. Em vez de descartar, transforme-as em:
               </p>
               <ul className="space-y-3">
-                <li className="flex gap-3 items-start">
-                  <span className="text-accent text-xl mt-1">•</span>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">•</span>
                   <span><strong>Brigadeiros e doces</strong> - cascas de banana ganham consistência perfeita</span>
                 </li>
-                <li className="flex gap-3 items-start">
-                  <span className="text-accent text-xl mt-1">•</span>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">•</span>
                   <span><strong>Chips crocantes</strong> - maçã, pera e banana viram snacks saudáveis</span>
                 </li>
-                <li className="flex gap-3 items-start">
-                  <span className="text-accent text-xl mt-1">•</span>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">•</span>
                   <span><strong>Chás e bebidas</strong> - casca de limão e laranja para infusões aromáticas</span>
                 </li>
-                <li className="flex gap-3 items-start">
-                  <span className="text-accent text-xl mt-1">•</span>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">•</span>
                   <span><strong>Compotas e geleias</strong> - aproveitamento integral com sabor intenso</span>
                 </li>
               </ul>
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* Talos de Vegetais Section */}
+      <section className="py-16 md:py-24">
+        <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+            <div className="space-y-6 animate-slide-in-left">
               <h2 className="text-3xl md:text-4xl font-bold text-primary">Talos de Vegetais</h2>
-              <p className="text-lg text-foreground/80">
+              <p className="text-foreground/80">
                 Couve, brócolis, espinafre e cenoura têm talos e folhas comestíveis frequentemente descartados. Descubra como aproveitá-los:
               </p>
               <ul className="space-y-3">
-                <li className="flex gap-3 items-start">
-                  <span className="text-accent text-xl mt-1">•</span>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">•</span>
                   <span><strong>Caldos e sopas</strong> - talos criam bases nutritivas e saborosas</span>
                 </li>
-                <li className="flex gap-3 items-start">
-                  <span className="text-accent text-xl mt-1">•</span>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">•</span>
                   <span><strong>Refogados</strong> - talos de couve e brócolis ficam macios e deliciosos</span>
                 </li>
-                <li className="flex gap-3 items-start">
-                  <span className="text-accent text-xl mt-1">•</span>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">•</span>
                   <span><strong>Smoothies verdes</strong> - folhas de cenoura e beterraba adicionam nutrientes</span>
                 </li>
-                <li className="flex gap-3 items-start">
-                  <span className="text-accent text-xl mt-1">•</span>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">•</span>
                   <span><strong>Farofas crocantes</strong> - talos picados e refogados ganham textura especial</span>
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="animate-slide-in-right">
               <img 
-                src="https://private-us-east-1.manuscdn.com/sessionFile/mZ4e5wbGQhqiaM0H0iswiG/sandbox/65pGOc1OZXXmvGDExAF5XK-img-3_1770231563000_na1fn_dGFsb3MtdmVnZXRhaXM.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbVo0ZTV3YkdRaHFpYU0wSDBpc3dpRy9zYW5kYm94LzY1cEdPYzFPWlhYbXZHREV4QUY1WEstaW1nLTNfMTc3MDIzMTU2MzAwMF9uYTFmbl9kR0ZzYjNNdGRtVm5aWFJoYVhNLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=nha4EBBaH5EuYM6kaUMz3Ly6BMArOl-1S55rpkp-HPhfeN57OAu60Mnpn~F93-3~mNSB1shguoDlwuhf6mS-eKq6wHd--V-dg1qcLx8~4Q7jpEA-wUDQvJeMoZmD3t8cQ92ytmGvqdAMGz1m56iE~SCa7naHWHSWDW3~d5WtrIB7T5RZR9kpX1USmJj48J2HsiXBZO9UvH0EhJdr~Ua-JAKgPhKM1NbSXK1liTqp9IVrFNGAy935AZJjlEoeXjID3y6~t0R~XCxYFWOb2jNe4zzlUlmeYt3ohPBef86uKMIdwBZD~7Tt1Svqe97Mhxwh9rnvrWwPNFr2BKNdGDIjRw__"
+                src="https://cdn.jsdelivr.net/gh/manus-ai/webdev-assets@main/eco-receitas/talos-vegetais.png"
                 alt="Talos de vegetais"
-                className="w-full h-auto rounded-2xl shadow-lg"
+                className="w-full rounded-2xl shadow-lg"
               />
             </div>
           </div>
@@ -235,23 +350,25 @@ export default function Home() {
       </section>
 
       {/* Receitas Section */}
-      <section id="receitas" className="py-16 md:py-24">
+      <section id="receitas" className="py-16 md:py-24 bg-gradient-to-b from-background to-yellow-50">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-primary mb-4">Receitas Sustentáveis</h2>
-          <p className="text-center text-lg text-foreground/80 mb-12 max-w-2xl mx-auto">
-            Explore nossas receitas criativas que transformam cascas, talos e folhas em pratos deliciosos e nutritivos.
-          </p>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Receitas Sustentáveis</h2>
+            <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
+              Explore nossas receitas criativas que transformam cascas, talos e folhas em pratos deliciosos e nutritivos.
+            </p>
+          </div>
 
-          {/* Category Filter */}
+          {/* Category Filters */}
           <div className="flex flex-wrap gap-3 justify-center mb-12">
-            {(['todos', 'cascas', 'talos', 'folhas', 'sementes'] as const).map((cat) => (
+            {(['todos', 'cascas', 'talos', 'folhas', 'sementes'] as const).map(cat => (
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${
+                className={`px-6 py-2 rounded-full font-semibold transition-all ${
                   selectedCategory === cat
-                    ? 'bg-primary text-white shadow-md'
-                    : 'bg-white text-primary border-2 border-primary hover:bg-primary/10'
+                    ? 'bg-primary text-white shadow-lg'
+                    : 'bg-white border-2 border-primary text-primary hover:bg-primary/10'
                 }`}
               >
                 {cat.charAt(0).toUpperCase() + cat.slice(1)}
@@ -261,52 +378,41 @@ export default function Home() {
 
           {/* Recipes Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredRecipes.map((recipe) => (
+            {filteredRecipes.map((recipe, idx) => (
               <div
                 key={recipe.id}
-                className="eco-card cursor-pointer group"
+                className="eco-card bg-white rounded-xl border-2 border-dashed border-primary p-6 cursor-pointer hover:shadow-xl transition-all animate-scale-in"
+                style={{ animationDelay: `${idx * 50}ms` }}
                 onClick={() => setExpandedRecipe(expandedRecipe === recipe.id ? null : recipe.id)}
               >
-                <div className="flex items-start justify-between mb-4">
-                  <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors flex-1">
-                    {recipe.title}
-                  </h3>
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="text-xl font-bold text-primary flex-1">{recipe.title}</h3>
                   <ChevronDown 
-                    className={`w-5 h-5 text-accent transition-transform duration-300 flex-shrink-0 ${
-                      expandedRecipe === recipe.id ? 'rotate-180' : ''
-                    }`}
+                    className={`w-5 h-5 text-primary transition-transform ${expandedRecipe === recipe.id ? 'rotate-180' : ''}`}
                   />
                 </div>
-
                 <p className="text-sm text-foreground/70 mb-4">{recipe.description}</p>
-
-                <div className="flex gap-2 mb-4 flex-wrap">
-                  <span className="text-xs bg-secondary/20 text-secondary-foreground px-3 py-1 rounded-full">
-                    {recipe.prepTime}
-                  </span>
-                  <span className="text-xs bg-primary/20 text-primary px-3 py-1 rounded-full">
-                    {recipe.difficulty}
-                  </span>
-                  <span className="text-xs bg-accent/20 text-accent px-3 py-1 rounded-full">
-                    {recipe.servings}
-                  </span>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">{recipe.prepTime}</span>
+                  <span className="text-xs bg-accent/20 text-accent px-2 py-1 rounded-full">{recipe.difficulty}</span>
+                  <span className="text-xs bg-secondary/20 text-secondary px-2 py-1 rounded-full">{recipe.servings}</span>
                 </div>
 
                 {expandedRecipe === recipe.id && (
-                  <div className="mt-6 pt-6 border-t border-border space-y-4 animate-fade-in">
+                  <div className="mt-4 pt-4 border-t border-primary/20 space-y-3 animate-fade-in">
                     <div>
                       <h4 className="font-bold text-primary mb-2">Ingredientes:</h4>
                       <ul className="text-sm space-y-1">
-                        {recipe.ingredients.map((ing, idx) => (
-                          <li key={idx} className="text-foreground/80">• {ing}</li>
+                        {recipe.ingredients.map((ing, i) => (
+                          <li key={i} className="text-foreground/80">• {ing}</li>
                         ))}
                       </ul>
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-2">Modo de Preparo:</h4>
                       <ol className="text-sm space-y-1">
-                        {recipe.instructions.map((inst, idx) => (
-                          <li key={idx} className="text-foreground/80">{idx + 1}. {inst}</li>
+                        {recipe.instructions.map((inst, i) => (
+                          <li key={i} className="text-foreground/80">{i + 1}. {inst}</li>
                         ))}
                       </ol>
                     </div>
@@ -315,28 +421,36 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          <div className="text-center mt-12">
+            <a href="#receitas" className="eco-button-primary inline-block">
+              Explorar Receitas
+            </a>
+          </div>
         </div>
       </section>
 
       {/* ODS 12.3 Section */}
-      <section id="ods" className="py-16 md:py-24 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10">
+      <section id="ods" className="py-16 md:py-24 bg-gradient-accent">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-bold text-primary">Meta 12.3 dos ODS</h2>
-              <p className="text-lg text-foreground/80">
-                <strong>Objetivo do Desenvolvimento Sustentável 12.3 da ONU:</strong> "Até 2030, reduzir pela metade o desperdício de alimentos per capita mundial, nos níveis de varejo e do consumidor, e reduzir as perdas de alimentos ao longo das cadeias de produção e abastecimento, incluindo as perdas pós-colheita."
-              </p>
-              
+              <div className="bg-white/90 rounded-lg p-6 space-y-4">
+                <p className="font-bold text-foreground">
+                  Objetivo do Desenvolvimento Sustentável 12.3 da ONU: "Até 2030, reduzir pela metade o desperdício de alimentos per capita mundial, nos níveis de varejo e do consumidor, e reduzir as perdas de alimentos ao longo das cadeias de produção e abastecimento, incluindo as perdas pós-colheita."
+                </p>
+              </div>
+
               <div className="space-y-4">
-                <div className="bg-white rounded-lg p-4 border-l-4 border-primary">
+                <div className="bg-white/90 rounded-lg p-4 border-l-4 border-primary">
                   <h4 className="font-bold text-primary mb-2">Por que isso importa?</h4>
                   <p className="text-sm text-foreground/80">
                     Aproximadamente 1,05 bilhão de toneladas de alimento são desperdiçadas anualmente no mundo, enquanto 735 milhões de pessoas sofrem de fome. O desperdício de alimentos também contribui significativamente para as mudanças climáticas.
                   </p>
                 </div>
 
-                <div className="bg-white rounded-lg p-4 border-l-4 border-accent">
+                <div className="bg-white/90 rounded-lg p-4 border-l-4 border-accent">
                   <h4 className="font-bold text-accent mb-2">Como você pode contribuir?</h4>
                   <p className="text-sm text-foreground/80">
                     Ao aproveitar cascas, talos e folhas em suas receitas, você reduz desperdício, economiza dinheiro e cria pratos deliciosos. Cada pequena ação conta!
@@ -345,29 +459,32 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex justify-center">
+            <div className="animate-scale-in">
               <img 
-                src="https://private-us-east-1.manuscdn.com/sessionFile/mZ4e5wbGQhqiaM0H0iswiG/sandbox/65pGOc1OZXXmvGDExAF5XK-img-5_1770231563000_na1fn_b2RzLTEyLXZpc3VhbA.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbVo0ZTV3YkdRaHFpYU0wSDBpc3dpRy9zYW5kYm94LzY1cEdPYzFPWlhYbXZHREV4QUY1WEstaW1nLTVfMTc3MDIzMTU2MzAwMF9uYTFmbl9iMlJ6TFRFeUxYWnBjM1ZoYkEucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=jrmaHhftNIKQ8WyBuWn7Ufj6jGxF122MOZbF~0uYmJhuYgD9oQXvwL9cfESANLo68mukM2O2psEllrZGtskPSmlM6u1ghq0cycrs72m0jtb8NPa-H2ADQmmcRL2nxGroSWogLoAjX9smsvXGNpa3YLEwO6Kkb0HekSTcqxGkeQeG2i4cx-DkxAH7aIEJmBaPvNfDvR4EPZy8fyEXefb2sD7WP2s5GGCKiY0QElc~OZYqX-NDs4fk9w1wUWmFD5xoZ~5ymziLSkC~V0abKC4n6mAU7n-tPdt29IMFawES2oy1GglHE4YGmBWKaCHF4sQUPJXmxOb6YkWdu7eiN7JkKA__"
+                src="https://cdn.jsdelivr.net/gh/manus-ai/webdev-assets@main/eco-receitas/ods-12-visual.png"
                 alt="ODS 12.3"
-                className="w-full max-w-md h-auto rounded-2xl shadow-lg"
+                className="w-full rounded-2xl shadow-lg"
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Impact Stats Section */}
-      <section id="impacto" className="py-16 md:py-24 bg-white/50">
+      {/* Impact Section */}
+      <section id="impacto" className="py-16 md:py-24">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-primary mb-16">Impacto Global</h2>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary text-center mb-12">Impacto Global</h2>
+          <div className="grid md:grid-cols-4 gap-6">
             {stats.map((stat, idx) => {
               const Icon = stat.icon;
               return (
-                <div key={idx} className="eco-card text-center">
-                  <Icon className="w-12 h-12 text-accent mx-auto mb-4" />
-                  <p className="text-3xl font-bold text-primary mb-2">{stat.value}</p>
+                <div
+                  key={idx}
+                  className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-shadow animate-fade-in-up"
+                  style={{ animationDelay: `${idx * 100}ms` }}
+                >
+                  <Icon className="w-12 h-12 text-primary mx-auto mb-4" />
+                  <p className="text-3xl md:text-4xl font-bold text-primary mb-2">{stat.value}</p>
                   <p className="text-sm text-foreground/70">{stat.label}</p>
                 </div>
               );
@@ -390,33 +507,38 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-foreground text-white/80 py-12">
+      <footer className="bg-foreground/10 py-12">
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Leaf className="w-6 h-6 text-primary" />
-                <h3 className="text-lg font-bold text-white">EcoReceitas</h3>
+                <h3 className="text-lg font-bold text-primary">EcoReceitas</h3>
               </div>
-              <p className="text-sm">Transformando desperdício em delícias sustentáveis.</p>
+              <p className="text-sm text-foreground/70">
+                Transformando desperdício em delícias sustentáveis.
+              </p>
             </div>
+
             <div>
-              <h4 className="font-bold text-white mb-4">Links Rápidos</h4>
+              <h4 className="font-bold text-primary mb-4">Links Rápidos</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#receitas" className="hover:text-primary transition-colors">Receitas</a></li>
-                <li><a href="#ods" className="hover:text-primary transition-colors">ODS 12.3</a></li>
-                <li><a href="#impacto" className="hover:text-primary transition-colors">Impacto</a></li>
+                <li><a href="#receitas" className="text-foreground/70 hover:text-primary transition-colors">Receitas</a></li>
+                <li><a href="#ods" className="text-foreground/70 hover:text-primary transition-colors">ODS 12.3</a></li>
+                <li><a href="#impacto" className="text-foreground/70 hover:text-primary transition-colors">Impacto</a></li>
               </ul>
             </div>
+
             <div>
-              <h4 className="font-bold text-white mb-4">Sobre</h4>
-              <p className="text-sm">
-                EcoReceitas é uma plataforma dedicada à conscientização sobre desperdício de alimentos e à promoção de práticas sustentáveis na cozinha.
+              <h4 className="font-bold text-primary mb-4">Sobre</h4>
+              <p className="text-sm text-foreground/70">
+                EcoReceitas é uma plataforma dedicada à conscientização sobre desperdício de alimentos e à promoção de práticas sustentáveis no prato.
               </p>
             </div>
           </div>
-          <div className="border-t border-white/20 pt-8 text-center text-sm">
-            <p>&copy; 2026 EcoReceitas. Todos os direitos reservados. Desenvolvido com 🌱 para um planeta melhor.</p>
+
+          <div className="border-t border-foreground/20 pt-8 text-center text-sm text-foreground/70">
+            <p>© 2026 EcoReceitas. Todos os direitos reservados. Desenvolvido com 🌱 para um planeta melhor.</p>
           </div>
         </div>
       </footer>
