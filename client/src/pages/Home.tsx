@@ -262,7 +262,7 @@ export default function Home() {
             </div>
             <div className="animate-fade-in-up">
               <img 
-                src="https://cdn.jsdelivr.net/gh/manus-ai/webdev-assets@main/eco-receitas/hero-reaproveitamento.png"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663029692787/fSSDKRYABwmXhCfL.png"
                 alt="Reaproveitamento de alimentos"
                 className="w-full rounded-2xl shadow-lg"
               />
@@ -277,7 +277,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
               <img 
-                src="https://cdn.jsdelivr.net/gh/manus-ai/webdev-assets@main/eco-receitas/cascas-frutas.png"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663029692787/FdpZPUGQJZMAnlqW.png"
                 alt="Cascas de frutas"
                 className="w-full rounded-2xl shadow-lg"
               />
@@ -340,7 +340,7 @@ export default function Home() {
             </div>
             <div className="animate-slide-in-right">
               <img 
-                src="https://cdn.jsdelivr.net/gh/manus-ai/webdev-assets@main/eco-receitas/talos-vegetais.png"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663029692787/BLTzzWgDaFneYXQA.png"
                 alt="Talos de vegetais"
                 className="w-full rounded-2xl shadow-lg"
               />
@@ -461,7 +461,7 @@ export default function Home() {
 
             <div className="animate-scale-in">
               <img 
-                src="https://cdn.jsdelivr.net/gh/manus-ai/webdev-assets@main/eco-receitas/ods-12-visual.png"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663029692787/sWkRzxUoUMCBglZY.png"
                 alt="ODS 12.3"
                 className="w-full rounded-2xl shadow-lg"
               />
