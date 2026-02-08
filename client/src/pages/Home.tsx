@@ -520,7 +520,7 @@ export default function Home() {
         <div className="container text-center space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-primary">Comece Agora!</h2>
           <p className="text-lg max-w-2xl mx-auto text-primary">
-            Escolha uma receita, reúna seus ingredientes e transforme o que seria desperdício em algo delicioso. Cada prato é um passo em direção a um planeta mais sustentável. Desenvolvida, pelo discente Felipe Feitoza Bezerra, como Atividade Extensionista do 4º período do curso de tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) na Gran Faculdade.  
+            Escolha uma receita, reúna seus ingredientes e transforme o que seria desperdício em algo delicioso. Cada prato é um passo em direção a um planeta mais sustentável.  
           </p>
           <a href="#receitas" className="inline-block bg-white text-primary px-8 py-3 rounded-lg font-bold hover:shadow-lg transition-shadow hover:bg-primary hover:text-white">
             Explorar Receitas
@@ -554,7 +554,7 @@ export default function Home() {
             <div>
               <h4 className="font-bold text-primary mb-4">Sobre</h4>
               <p className="text-sm text-foreground/70">
-                EcoReceitas é uma plataforma dedicada à conscientização sobre desperdício de alimentos e à promoção de práticas sustentáveis no prato.
+                EcoReceitas é uma plataforma dedicada à conscientização sobre desperdício de alimentos e à promoção de práticas sustentáveis no prato. Desenvolvida, pelo discente Felipe Feitoza Bezerra, como Atividade Extensionista do 4º período do curso de tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) na Gran Faculdade.
               </p>
             </div>
           </div>
